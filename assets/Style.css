@@ -30,7 +30,7 @@ a {
 
 .menu_nav {
     list-style: none;
-    /* Remove os pontinhos */
+    /* Remove os pontinhos*/
     margin-left: 350px;
     padding: 0;
     display: flex;

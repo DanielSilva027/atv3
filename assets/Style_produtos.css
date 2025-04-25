@@ -26,7 +26,7 @@ table {
   width: 400px;
   margin: auto;
   border-collapse: separate;
-  /* IMPORTANTE para funcionar o arredondamento */
+  /* IMPORTANTE para funcionar o arredondamento*/
   border-radius: 10px;
 
 }
