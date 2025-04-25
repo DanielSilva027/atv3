@@ -1,0 +1,54 @@
+* {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+img.ima_cam0 {
+    width: 960px;
+
+}
+
+body {
+    background-color: rgb(67, 65, 65);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+
+    width: 960px;
+    margin: auto;
+    background-color: #e6f0fa;
+
+}
+
+.cabepe {
+    background-color: #1e3a8a;
+}
+
+.menu_nav {
+    list-style: none;
+    /* Remove os pontinhos */
+    margin-left: 350px;
+    padding: 0;
+    display: flex;
+    /* Deixa os itens lado a lado */
+}
+
+.menu_nav li {
+    margin: 0;
+}
+
+.menu_nav li a {
+    display: block;
+    padding: 15px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu_nav li a:hover {
+    background-color: #3b82f6;
+    /* Cor ao passar o mouse */
+}

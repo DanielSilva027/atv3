@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e6f0fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Formulário */
+.login-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+/* Estilo para caixas de texto e textarea */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: px;
+  font-size: 14px;
+}
+
+/* Destaque ao focar nos campos */
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  background-color: #f0f8ff;
+  outline: none;
+  border-color: #1e3a8a;
+}
+
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+  background-color: #3b82f6;
+}
+
+
+.cabepe {
+  background-color: #1e3a8a;
+}
+
+
+
+.menu_nav {
+  list-style: none;
+  /* Remove os pontinhos */
+  margin-left: 150px;
+  padding: 0;
+  display: flex;
+  /* Deixa os itens lado a lado */
+}
+
+.menu_nav li {
+  margin: 0;
+}
+
+.menu_nav li a {
+  display: block;
+  padding: 15px 20px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.menu_nav li a:hover {
+  background-color: #3b82f6;
+  /* Cor ao passar o mouse */
+}
